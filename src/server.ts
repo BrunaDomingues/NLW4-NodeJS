@@ -1,6 +1,7 @@
+import 'reflect-metadata'; // importante sempre vir primeiro
 import express from "express";
+import './database';
 const app = express();
-
 /*
     GET => Busca
     POST => Salvar
